@@ -1148,8 +1148,8 @@ footer {
 }
 
 @media (max-width: 350px) {
-	input, textarea {
-		width: auto;
+	form {
+		padding: 16px;
 	}
 }
 
