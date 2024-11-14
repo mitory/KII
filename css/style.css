@@ -1136,6 +1136,9 @@ footer {
 	input, textarea {
 		width: auto;
 	}
+		form {
+		padding: 16px;
+	}
 	.logo-cps {
 		width: 80%;
 	}
@@ -1144,12 +1147,6 @@ footer {
 	}
 	.title {
 		padding: 8px;
-	}
-}
-
-@media (max-width: 350px) {
-	form {
-		padding: 16px;
 	}
 }
 
