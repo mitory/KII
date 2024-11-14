@@ -27,7 +27,7 @@ a {
 	color: #34C6FF;
 }
 
-a:hover {
+button:hover, a:hover {
 	color: var(--white-color);
 	text-decoration: underline;
 }
@@ -56,13 +56,13 @@ a:hover {
 	}
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 992px) {
 	.container {
 		max-width: 768px;
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
 	.container {
 		max-width: 1024px;
 	}
