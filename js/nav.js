@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     var headerHeight = window.innerWidth < 992 ? 60 : 0;
 
-    document.querySelectorAll('.main-block__list > a')
+    document.querySelectorAll('a.main-block__element')
     .forEach(anchor => eventScrolling(anchor));
     document.querySelectorAll('a.button')
     .forEach(anchor => eventScrolling(anchor));

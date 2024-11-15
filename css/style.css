@@ -741,10 +741,15 @@ footer {
 .logos {
 	display: grid;
 	row-gap: 10px;
-	-webkit-column-gap: 72px;
-	   -moz-column-gap: 72px;
-	        column-gap: 72px;
+	-webkit-column-gap: 50px;
+	   -moz-column-gap: 50px;
+	        column-gap: 50px;
 	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: center;
+}
+
+.logos a {
+	align-self: center;
 }
 
 #popupMessage {
@@ -1153,7 +1158,11 @@ footer {
 
 
 
-
+@media (max-width: 337px) {
+	.logos-container p {
+		font-size: 13px;
+	}
+}
 
 
 
