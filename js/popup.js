@@ -6,7 +6,11 @@ function showPopup(message) {
 
     popupMessage.classList.add("show");
 
-    setTimeout(function () {
-        popupMessage.classList.remove("show");
-    }, 5000);
 }
+
+const popup_button = document.getElementById("popupButton");
+
+
+popup_button.addEventListener("click", function () {
+    popupMessage.classList.remove("show");
+});

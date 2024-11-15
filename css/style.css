@@ -754,23 +754,26 @@ footer {
 
 #popupMessage {
 	position: fixed;
-	bottom: 10px;
-	left: 10px;
-	background-color: var(--white-color);
-	color: var(--black-color);
+	width: 300px;
+	top: 50%;
+	left: calc(50% - 150px);
+	background-color: rgba(21, 0, 69, 0.8);
+	color: var(--white-color);
 	font-size: 18px;
-	font-weight: 400;
+	font-weight: 600;
 	line-height: 21px;
 	padding: 15px;
 	border-radius: 16px;
 	-webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	display: none;
+	gap: 10px;
+	align-items: center;
 	z-index: 3;
 }
 
 #popupMessage.show {
-	display: block;
+	display: flex;
 }
 
 /*mobile*/
