@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     var headerHeight = window.innerWidth < 992 ? 60 : 0;
 
-    document.querySelectorAll('.main-block__list a')
+    document.querySelectorAll('.main-block__list > a')
     .forEach(anchor => eventScrolling(anchor));
     document.querySelectorAll('a.button')
     .forEach(anchor => eventScrolling(anchor));
@@ -16,9 +16,6 @@ function eventScrolling(anchor) {
 
             if (targetElement) {
                 var offset = targetElement.offsetTop - headerHeight;
-                // if (targetId === 'functions' || targetId === 'structure') {
-                //     offset += 750
-                // }
                 window.scrollTo({
                     top: offset,
                     behavior: 'smooth'

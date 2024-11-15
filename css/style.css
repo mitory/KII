@@ -67,6 +67,7 @@ header {
 	background: url('../src/back-img/first_block_lines.svg') left / cover no-repeat;
 	right: -10px;
 	top: 145px;
+	z-index: -1;
 }
 
 .main_block__content {
@@ -153,7 +154,7 @@ header {
 	position: absolute;
 	background: url('../src/icons/navigate.svg') center / cover no-repeat;
 	left: calc(-24px - 8px);
-	top: -2px;
+	top: 0;
 	width: 24px;
 	height: 24px;
 }
@@ -779,9 +780,9 @@ footer {
 	}
 
 	.guard-img {
-		width: 60%;
+		width: 70%;
 		height: 100%;
-		left: -15%;
+		left: -30%;
 		top: 0;
 	}
 
